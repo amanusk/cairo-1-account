@@ -1,0 +1,22 @@
+[package]
+name = "cairo_1_account"
+version = "0.1.0"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
+
+[[target.starknet-contract]]
+sierra = true
+casm=true
+
+[dependencies]
+starknet = "2.1.0"
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.4.0" }
+
+
+[tool.snforge]
+# exit_first = true
+
+[tool.sncast]
+account="__default__"
+network = "testnet"
+url = "https://starknet-testnet.blastapi.io/0974b411-0859-487d-a0c3-8f2513634988/rpc/v0.4"
