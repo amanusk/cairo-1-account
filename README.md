@@ -1,9 +1,9 @@
-# Starknet-Foundry template
+# Cairo-1-Account
 
-# Starknet-Foundry template ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/amanusk/starknet-foundry-template/blob/main/LICENSE)
+# Cairo-1-Account ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/amanusk/starknet-foundry-template/blob/main/LICENSE)
 
-Simple template of a Cairo contract built using Starknet-Foundry
-The example shows a simple multi-send contract, receiving an ERC20 address, and a list of recipients, and sends tokens to recipients according to the list
+Example of an Cairo 1 account for Starknet, with a simple public key
+The account class hash: `0x5751eba776086d56e9836e2f59edb02613caabaa5bbce1833fd54fd719ec5e7`
 
 This repo requires `Scarb 0.6.0`
 
